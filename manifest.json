@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "PocketPhone Bedrock Add-On",
+    "description": "A persistent in-game smartphone interface for Minecraft Bedrock.",
+    "uuid": "2b3f0a25-b9f7-4d0f-8ea8-5d66cb7e2f90",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 50]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "d6f8fb08-6a07-46cb-bd93-9154e630bb9a",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server", "version": "1.16.0" },
+    { "module_name": "@minecraft/server-ui", "version": "1.3.0" }
+  ]
+}
